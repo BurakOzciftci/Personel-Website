@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sitesi</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #121212, #1a1a1a);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .profile-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-container img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .profile-container h1 {
+            margin: 10px 0 5px;
+        }
+
+        .profile-container p {
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        .links {
+            width: 90%;
+            max-width: 400px;
+        }
+
+        .links a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            background: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 30px;
+            padding: 10px 20px;
+            margin: 10px 0;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .links a img {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+
+        .links a:hover {
+            background: #333;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="aa.jpg" alt="Profil Resmi">
+        <h1>Ad Soyad</h1>
+        <p>Meslek</p>
+    </div>
+
+    <div class="links">
+        <a href="https://instagram.com" target="_blank">
+            <img src="instagram.png" alt="Instagram">Instagram
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="X_logo.jpg" alt="Twitter">X (Twitter)
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <img src="linkedin_logo.png" alt="LinkedIn">LinkedIn
+        </a>
+    </div>
+</body>
+</html>

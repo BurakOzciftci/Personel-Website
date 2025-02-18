@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sitesi</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .profile-container {
+            text-align: center;
+            margin-bottom: 50px; /* Profile daha yüksekte olacak şekilde ayarlandı */
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-container img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .profile-container h1 {
+            margin: 20px 0 10px;
+            font-size: 30px;
+        }
+
+        .profile-container p {
+            font-size: 16px;
+            color: #f0f0f0;
+        }
+
+        .links {
+            width: 100%;
+            max-width: 450px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px; /* Bağlantılarla profil arasındaki mesafe artırıldı */
+        }
+
+        .links a {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            text-decoration: none;
+            color: white;
+            background: rgba(0, 0, 0, 0.3);
+            border: none;
+            border-radius: 15px;
+            padding: 15px 20px;
+            font-size: 18px;
+            font-weight: 500;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .links a img {
+            width: 35px;
+            height: 35px;
+            margin-right: 15px;
+        }
+
+        .links a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-7px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="aa.jpg" alt="Profil Resmi">
+        <h1>Ad Soyad</h1>
+        <p>Meslek</p>
+    </div>
+
+    <div class="links">
+        <a href="https://instagram.com" target="_blank">
+            <img src="instagram.png" alt="Instagram">Instagram
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="X_logo.jpg" alt="Twitter">X (Twitter)
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <img src="linkedin_logo.png" alt="LinkedIn">LinkedIn
+        </a>
+    </div>
+</body>
+</html>

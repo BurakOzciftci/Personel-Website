@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sitesi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1A1A1D;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .profile-section {
+            margin-bottom: 50px;
+        }
+
+        .profile-image {
+            width: 185px;
+            height: 185px;
+            border-radius: 50%;
+            border: 4px solid #ffffff;
+            margin: 0 auto 20px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .profile-name {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .profile-bio {
+            font-size: 1rem;
+            line-height: 2;
+            opacity: 0.8;
+        }
+
+        .links, .companies {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        .links a, .companies a {
+            text-decoration: none;
+        }
+
+        .icon {
+            width: 75px;
+            height: 75px;
+            transition: transform 0.3s;
+            border-radius: 10%;
+        }
+
+        .icon:hover {
+            transform: scale(1.2, 1.2);
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        .contact {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .contact span {
+            display: block;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Profil Bölümü -->
+        <div class="profile-section">
+            <div class="profile-image" style="background-image: url('aa.jpg');"></div>
+            <div class="profile-name">Ad Soyad</div>
+            <div class="profile-bio">Meslek</div>
+        </div>
+
+        <!-- Sosyal Medya Bağlantıları -->
+         <h3>Bağlantılar</h3>
+        <div class="links">
+            <a href="https://www.instagram.com/burakozciftci.exe/" target="_blank">
+                <img src="Instagram.png" alt="Instagram" class="icon">
+            </a>
+            <a href="https://x.com/ozciftci_burak" target="_blank">
+                <img src="X_logo.jpg" alt="X" class="icon">
+            </a>
+            <a href="https://www.linkedin.com/in/ismail-burak-%C3%B6z%C3%A7ift%C3%A7i-374307282/" target="_blank">
+                <img src="linkedin_logo.png" alt="LinkedIn" class="icon">
+            </a>
+        </div>
+        <br>
+        <br>
+
+        <!-- İletişim -->
+        <div class="contact">
+            <h3>İletişim</h3>
+            <span>Telefon: +90 555 555 55 55</span>
+            <span>E-posta: mail@example.com</span>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            &copy; 2025 Tüm hakları saklıdır.
+        </div>
+    </div>
+</body>
+</html>
